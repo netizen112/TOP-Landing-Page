@@ -1,5 +1,5 @@
 body {
-    font-family: roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,10 +10,16 @@ body {
     flex-grow: 1;
 }
 
-.hero-section {
-    background-color: #1f2937;
+.hero-section,
+.info-section,
+.quote-section,
+.signup-section {
     padding: 16px 10% 48px;
     min-height: 30vh;
+}
+
+.hero-section {
+    background-color: #1f2937;
 }
 
 .header {
@@ -81,11 +87,6 @@ a {
     justify-content: center;
 }
 
-.info-section {
-    padding: 16px 10% 48px;
-    min-height: 30vh;
-}
-
 .info-title {
     text-align: center;
     font-size: 36px;
@@ -115,4 +116,31 @@ a {
 
 .info-card-text {
     text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10% 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 8px;
 }
