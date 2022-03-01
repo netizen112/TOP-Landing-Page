@@ -182,3 +182,12 @@ a {
 .signup-modal-button {
     border: 2px solid #e5e7eb;
 }
+
+.footer {
+    background-color: #1f2937;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
