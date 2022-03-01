@@ -1,0 +1,82 @@
+body {
+    font-family: roboto, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.hero-section {
+    background-color: #1f2937;
+    padding: 16px 10% 48px;
+    min-height: 30vh;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 48px;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.header-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.intro {
+    display: flex;
+    gap: 32px;
+}
+
+.intro-modal {
+    width: 50%;
+}
+
+.intro-modal-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.intro-modal-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.intro-modal-signup-button {
+    padding: 8px 32px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.intro-img-placeholder {
+    width: 50%;
+    background-color: #e5e7eb;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
