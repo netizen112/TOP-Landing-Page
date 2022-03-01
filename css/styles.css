@@ -14,18 +14,22 @@ body {
 .info-section,
 .quote-section,
 .signup-section {
-    padding: 16px 10% 48px;
+    padding: 2% 10%;
     min-height: 30vh;
 }
 
 .hero-section {
     background-color: #1f2937;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
-    margin-bottom: 48px;
+    /*margin-bottom: 48px;*/
     justify-content: space-between;
+    justify-self: flex-start;
 }
 
 .header-logo {
@@ -51,10 +55,15 @@ a {
 .intro {
     display: flex;
     gap: 32px;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .intro-modal {
-    width: 50%;
+    max-width: 50%;
+    flex-grow: 1;
 }
 
 .intro-modal-text {
@@ -70,21 +79,25 @@ a {
     margin-bottom: 8px;
 }
 
-.intro-modal-signup-button {
+.intro-modal-signup-button,
+.signup-modal-button {
     padding: 8px 32px;
     background-color: #3882f6;
     border-radius: 8px;
     color: whitesmoke;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .intro-img-placeholder {
-    width: 50%;
+    max-width: 50%;
     background-color: #e5e7eb;
     opacity: 0.5;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    flex-grow: 1;
+    padding: 8%;
 }
 
 .info-title {
@@ -143,4 +156,29 @@ a {
     font-weight: 700;
     font-size: 24px;
     padding: 8px;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-modal {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 16px;
+    padding: 4% 16%;
+    display: flex;
+    gap: 48px;
+}
+
+.signup-modal-title-line {
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: larger;
+}
+
+.signup-modal-button {
+    border: 2px solid #e5e7eb;
 }
